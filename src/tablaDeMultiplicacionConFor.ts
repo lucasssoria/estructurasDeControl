@@ -7,6 +7,7 @@ numDeCorte = Number(prompt("Ingrese hasta que numero desea multiplicarlo: "));
 for (i = 1; i <= numDeCorte; i++) {
   // se guarda en resultado la multiplicacion del numero por el contador
   resultado = numero * i;
+  // se imprime en consola la tabla
   console.log(
     "La multiplicacion de: " + numero + " * " + i + " = " + resultado
   );
